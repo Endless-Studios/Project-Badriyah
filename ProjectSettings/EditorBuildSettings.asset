@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Climbing System/Scenes/Climbing Level Demo.unity
+    path: Assets/Scenes/Climbing Level Demo.unity
     guid: f582a16d13f6fbc4c8e9d79749b6e5d6
-  - enabled: 1
-    path: Assets/Climbing System/Scene/Mobile Demo Scene.unity
-    guid: e01cf7efeda7f8a46a3178f59368ff7e
-  - enabled: 1
-    path: Assets/Climbing System/Scene/25D Demo Scene.unity
-    guid: 279769bc94efd134fbc4ad924694e860
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
