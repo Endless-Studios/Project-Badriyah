@@ -32,7 +32,7 @@ MonoBehaviour:
       refVal: {fileID: 2800000, guid: 21871228c33c9d2429e12d25f8ab4fbe, type: 3}
       refName: 1HSwordIcon
       refUpdateDateTime: 11/04/2021 16:45:42
-    inspectorEquipWeapon: 1
+    inspectorEquipWeapon: 0
     globalWeaponOverrideEnableStatus: 0
     weaponEnabled: 1
     allowWeaponGroupAssignment: 0
@@ -63,10 +63,10 @@ MonoBehaviour:
     enableDuration: 0.5
     disableDuration: 0.5
     enableWeaponOnCycle: 0
-    enableWeaponOnInput: 0
+    enableWeaponOnInput: 1
     weaponEnableInputType: 0
     weaponEnableButton: 
-    weaponEnableKey: 323
+    weaponEnableKey: 101
     weaponGraphics:
     - foldOut: 1
       weaponObjMainGraphic:
@@ -250,7 +250,7 @@ MonoBehaviour:
     reloadWeaponAestheticsPositionOffset: {x: 0, y: 0, z: 0}
     reloadWeaponAestheticsPositionForwardOffset: 0
     reloadWeaponAestheticsPositionRightOffset: 0
-    enableWeaponParry: 1
+    enableWeaponParry: 0
     weaponParryDelay: 0
     weaponParryDuration: 0.4
     weaponParryCooldown: 0.8
@@ -305,7 +305,7 @@ MonoBehaviour:
     weaponParryEffectAestheticsPositionForwardOffset: 0.1
     weaponParryEffectAestheticsPositionRightOffset: 0
     weaponParryEffectPositionOnTag: 
-    enableWeaponBlock: 1
+    enableWeaponBlock: 0
     weaponBlockFaceAbilityRequired: 0
     weaponBlockTurnToAbilityHitPoint: 1
     interruptBlockedMeleeAttack: 0

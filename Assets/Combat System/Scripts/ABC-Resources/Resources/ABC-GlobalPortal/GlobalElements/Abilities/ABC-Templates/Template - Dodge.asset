@@ -604,8 +604,8 @@ MonoBehaviour:
     reloadFillClipRepeatGraphic: 1
     abilityRecast: 0.8
     startRecastAfterAbilityEnd: 0
-    travelSpeed: 20
-    duration: 1
+    travelSpeed: 0
+    duration: 0.5
     abilityToggle: 0
     canCastWhenToggled: 1
     repeatInitiatingAnimationWhilstToggled: 1
@@ -726,7 +726,7 @@ MonoBehaviour:
       refUpdateDateTime: 
     startingPositionOnTag: 
     startingPositionOffset: {x: 0, y: 0, z: 0}
-    startingPositionForwardOffset: -5
+    startingPositionForwardOffset: 0
     startingPositionRightOffset: 0
     abilityCollisionIgnores: 0
     impactDestroy: 0
@@ -811,9 +811,9 @@ MonoBehaviour:
     initiatingAestheticsPositionForwardOffset: 0
     initiatingAestheticsPositionRightOffset: 0
     initiatingAnimationRunnerClip:
-      refVal: {fileID: 7400000, guid: 5118ab047f60cec4285873c1fd0532b8, type: 2}
-      refName: ForwardRollLongDistance
-      refUpdateDateTime: 19/09/2020 11:00:01
+      refVal: {fileID: 7400000, guid: c8f759423805b544d95abb86282503ba, type: 2}
+      refName: ForwardRoll2
+      refUpdateDateTime: 6/23/2022 12:35:37 PM
     initiatingAnimationRunnerMask:
       refVal: {fileID: 0}
       refName: 
