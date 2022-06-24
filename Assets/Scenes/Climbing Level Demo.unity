@@ -1234,7 +1234,7 @@ Transform:
   m_LocalScale: {x: 8.139371, y: 0.19999999, z: 5.095953}
   m_Children: []
   m_Father: {fileID: 1552638290}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &143730809
 BoxCollider:
@@ -2817,7 +2817,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643064684}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -14.1}
+  m_LocalPosition: {x: 0, y: 0, z: -14.49}
   m_LocalScale: {x: 81, y: 0.1, z: 31.629}
   m_Children: []
   m_Father: {fileID: 691473610}
@@ -4681,7 +4681,7 @@ Transform:
   m_LocalScale: {x: 13.017265, y: 17.998943, z: 6.671626}
   m_Children: []
   m_Father: {fileID: 1552638290}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1091627126
 BoxCollider:
@@ -6196,10 +6196,10 @@ Transform:
   - {fileID: 225513639}
   - {fileID: 497236278}
   - {fileID: 1915966954}
-  - {fileID: 1817319129}
   - {fileID: 2078808947}
   - {fileID: 143730808}
   - {fileID: 1091627125}
+  - {fileID: 1747249858}
   m_Father: {fileID: 691473610}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6209,7 +6209,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74036
+  m_Name: pb_Mesh248046
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6959,6 +6959,101 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1694865653}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1747249857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1747249858}
+  - component: {fileID: 1747249861}
+  - component: {fileID: 1747249860}
+  - component: {fileID: 1747249859}
+  m_Layer: 19
+  m_Name: Droppable Block (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1747249858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747249857}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 18.369995, y: -2.87, z: -26.6}
+  m_LocalScale: {x: 8.139371, y: 0.19999999, z: 5.095953}
+  m_Children: []
+  m_Father: {fileID: 1552638290}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
+--- !u!65 &1747249859
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747249857}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1747249860
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747249857}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7e7e1d532ff1cba439b096c8edb1690b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1747249861
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747249857}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1755528068
 GameObject:
   m_ObjectHideFlags: 0
@@ -7420,101 +7515,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1817319128
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1817319129}
-  - component: {fileID: 1817319132}
-  - component: {fileID: 1817319131}
-  - component: {fileID: 1817319130}
-  m_Layer: 0
-  m_Name: Droppable Block (15)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1817319129
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817319128}
-  m_LocalRotation: {x: -0, y: -0.00000086426724, z: -0, w: 1}
-  m_LocalPosition: {x: 17.78, y: -3.15, z: -27.4}
-  m_LocalScale: {x: 0.5369721, y: 5.0902863, z: 6.37115}
-  m_Children: []
-  m_Father: {fileID: 1552638290}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1817319130
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817319128}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1817319131
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817319128}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 7e7e1d532ff1cba439b096c8edb1690b, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1817319132
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817319128}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1831928613
 GameObject:
   m_ObjectHideFlags: 0
@@ -19512,7 +19512,7 @@ Transform:
   m_LocalScale: {x: 10.589854, y: 7.0763197, z: 6.7037196}
   m_Children: []
   m_Father: {fileID: 1552638290}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2078808948
 BoxCollider:
@@ -20898,7 +20898,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164515468810581252}
-  m_LocalRotation: {x: -0.05456168, y: -0.0000000021488613, z: -1.1742039e-10, w: 0.9985104}
+  m_LocalRotation: {x: -0.05456168, y: 0.0000000021475937, z: 1.1735113e-10, w: 0.9985104}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -22047,6 +22047,7 @@ GameObject:
   - component: {fileID: 1248815673505799243}
   - component: {fileID: 1248815673505799242}
   - component: {fileID: 1248815673505799241}
+  - component: {fileID: 1248815673505799251}
   m_Layer: 15
   m_Name: Player
   m_TagString: Player
@@ -22796,655 +22797,6 @@ MonoBehaviour:
   - globalAbilities: {fileID: 11400000, guid: 2f681995c0fd1e74da423d57647ffb5d, type: 2}
     globalElementSource: {fileID: 0}
     globalAbilitiesEnableGameTypeModification: 1
-    globalAbilitiesGameTypeModification: 0
-    name: 
-    abilityID: -1
-    autoCast: 0
-    abilityTags: []
-    allowAbilityGroupAssignment: 0
-    assignedAbilityGroupIDs: 
-    abilityGroupListChoice: 0
-    assignedAbilityGroupNames: []
-    inspectorParentAbilityListChoice: 0
-    parentAbilityID: 0
-    showChildrenInInspector: 1
-    description: ' '
-    iconImage:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    loggingEnabled: 1
-    globalAbilityOverrideEnableStatus: 0
-    abilityEnabled: 1
-    enableDuration: 0
-    enableAfterEvent: 0
-    enableAfterAbilityIDsActivated: 
-    enableAfterAbilityIDsCollide: 
-    enableAbilityActivationLinks: 0
-    activationLinkAbilityIDs: 
-    enableAbilityTriggerLinks: 0
-    triggerLinkAbilityIDs: 
-    enableAbilityEffectLinks: 0
-    effectLinkAbilityIDs: 
-    abilityIgnoreTag: []
-    abilityRequiredTag: []
-    manaCost: 0
-    statCost: 0
-    statCostIntegrationType: 0
-    statCostName: Stamina
-    reduceManaWhenActive: 0
-    enableExport: 0
-    enableImport: 1
-    tempAbilityActivationIntervalAdjustment: 0
-    randomlySwapAbilityPosition: 0
-    abilityCombo: 0
-    comboNextActivateTime: 2
-    neverResetOtherCombos: 0
-    comboHitRequired: 0
-    LandOrAir: 0
-    airAbilityDistanceFromGround: 2
-    neverSleep: 0
-    isKinematic: 0
-    mass: 1
-    travelDelay: 0
-    requireCrossHairOverride: 0
-    abilityType: 0
-    rayCastLength: 100
-    rayCastSingleHit: 1
-    rayCastRadius: 1
-    raycastHitAmount: 1
-    raycastBlockable: 1
-    raycastIgnoreTerrain: 0
-    includeSurroundingObject: 0
-    surroundingObjectTarget: 0
-    surroundingObjectTargetRequired: 0
-    surroundingObjectTargetRestrict: 0
-    surroundingObjectTargetAffectTag: []
-    surroundingObjectAuxiliarySoftTarget: 0
-    surroundingObjectTargetRange: 50
-    surroundingObjectTags: 0
-    surroundingObjectTagRequired: 0
-    surroundingObjectTagAffectTag: []
-    surroundingObjectTagLimit: 2
-    surroundingObjectTagsRange: 15
-    destroySurroundingObject: 0
-    projectileAffectSurroundingObject: 0
-    lockSurroundingObject: 1
-    minimumScatterRange: 0
-    maximumScatterRange: 0
-    applyColliderToSurroundingObjects: 1
-    applyColliderWhenProjectileReached: 1
-    sendObjectToProjectile: 0
-    objectToProjectileDuration: 2
-    mainGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    subGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    scaleAbilityGraphic: 0
-    abilityGraphicScale: 1
-    chooseLayer: 0
-    abLayer: 
-    useColliderTrigger: 1
-    applyGravity: 0
-    applyGravityDelay: 0
-    travelType: 0
-    castableDuringHitPrevention: 0
-    hitPreventionWontInterruptActivation: 0
-    forceActivation: 0
-    forceActivationInterruptCurrentActivation: 0
-    overrideIgnoreAbilityCollision: 0
-    overrideWeaponParrying: 0
-    overrideWeaponBlocking: 0
-    reduceWeaponBlockDurability: 1
-    activateAnimationFromHit: 1
-    activateAnimationFromHitDelay: 0
-    activateAnimationFromHitUseAirAnimation: 0
-    activateSpecificHitAnimation: 0
-    hitAnimationToActivate: 
-    activateSpecificHitAnimationUseClip: 0
-    hitAnimationClipToActivate:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    mouseForwardLockX: 0
-    mouseForwardLockY: 0
-    mouseForwardLockZ: 0
-    mouseFrontOnly: 0
-    travelWithCaster: 0
-    travelPhysics: 0
-    noTargetStillTravel: 1
-    auxiliarySoftTarget: 1
-    startingPositionAuxiliarySoftTarget: 0
-    targetTravel: 1
-    targetFacing: 0
-    continuouslyTurnToDestination: 1
-    abilityBeforeTarget: 0
-    loopTillTargetFound: 1
-    abilityRangeIndicatorImage:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    abilityWorldTargetIndicatorImage:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    abilityMouseTargetIndicatorImage:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    abilityBeforeTargetWorldIndicatorScaleToEffectRadius: 1
-    abilityBeforeTargetWorldIndicatorScale: 3
-    abilityBeforeTargetMouseTargetIndicatorLength: 7
-    seekTargetDelay: 0
-    selectedTargetRestrictTargets: 0
-    selectedTargetOnlyCastOnTag: []
-    affectOnlyTarget: 0
-    rotateToSelectedTarget: 0
-    meleeKeepRotatingToSelectedTarget: 0
-    noTargetRotateBehaviour: 0
-    hitsStopMeleeAttack: 1
-    customTravelScript:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    travelNearestTagList: []
-    travelNearestTagRange: 20
-    travelNearestTagIgnoreOriginator: 1
-    travelNearestTagRandomiseSearch: 1
-    crossHairRaycastRadius: 1
-    crossHairRaycastReturnDistancePointOnly: 0
-    crossHairRaycastReturnedDistance: 30
-    crossHairRecordTargetOnActivation: 0
-    limitActiveAtOnce: 0
-    abilityActivationRaiseEvent: 0
-    abilityActivationCompleteRaiseEvent: 0
-    abilityActivationCompleteEventType: 0
-    maxActiveAtOnce: 0
-    scrollAbility: 0
-    scrollSetUnsetRaiseEvent: 0
-    scrollQuickInputType: 0
-    scrollQuickButton: 
-    scrollQuickKey: 0
-    scrollSwapDuration: 1
-    triggerType: 0
-    keyInputCombo: 
-    keyInputType: 0
-    keyButton: 
-    globalAbilityOverrideKeyTrigger: 0
-    key: 0
-    onKeyPress: 1
-    onKeyDown: 0
-    requireAdditionalKeyInput: 0
-    additionalKeyInputType: 0
-    additionalKeyButton: 
-    additionalKey: 0
-    additionalOnKeyPress: 1
-    additionalOnKeyDown: 0
-    UseAmmo: 0
-    useEquippedWeaponAmmo: 0
-    reduceAmmoWhilstActive: 0
-    ammoCount: 100
-    useReload: 1
-    clipSize: 50
-    reloadDuration: 2
-    reloadRestrictAbilityActivationDuration: 1
-    autoReloadWhenRequired: 1
-    reloadFillClip: 0
-    reloadFillClipRepeatGraphic: 1
-    abilityRecast: 0
-    startRecastAfterAbilityEnd: 0
-    travelSpeed: 20
-    duration: 10
-    abilityToggle: 0
-    canCastWhenToggled: 1
-    repeatInitiatingAnimationWhilstToggled: 1
-    bounceMode: 0
-    bounceAmount: 3
-    bounceRange: 20
-    bounceTarget: 0
-    bounceOnCaster: 0
-    enableRandomBounce: 1
-    startBounceTagRequired: 0
-    startBounceRequiredTags: []
-    bounceTag: []
-    bouncePositionOffset: {x: 0, y: 0, z: 0}
-    bouncePositionForwardOffset: 0
-    bouncePositionRightOffset: 0
-    boomerangMode: 0
-    boomerangDelay: 0
-    effects: []
-    onEnter: 1
-    onStay: 0
-    onStayInterval: 0.3
-    onExit: 0
-    particleCollision: 0
-    enableCollisionAfterKeyPress: 0
-    enableCollisionAfterKeyInputType: 0
-    enableCollisionAfterKeyButton: 
-    enableCollisionAfterKey: 0
-    startingRotation: {x: 0, y: 0, z: 0}
-    setEulerRotation: 0
-    travelDrag: 0
-    startingPosition: 0
-    additionalStartingPositions: []
-    affectOriginObject: 0
-    startingPositionOnObject:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    startingPositionOnTag: 
-    startingPositionOffset: {x: 0, y: 0, z: 0}
-    startingPositionForwardOffset: 0
-    startingPositionRightOffset: 0
-    abilityCollisionIgnores: 0
-    impactDestroy: 0
-    destroyIgnoreTag: []
-    destroyDelay: 0
-    useDestroySplashEffect: 0
-    destroySplashRadius: 0
-    destroySplashExplosion: 0
-    destroySplashExplosionRadius: 5
-    destroySplashExplosionPower: 5
-    destroySplashExplosionUplift: 3
-    destroySplashExplosionTagLimit: 0
-    destroySplashExplosionAffectTag: []
-    modifyGameSpeedOnInitiation: 0
-    modifyGameSpeedOnInitiationSpeedFactor: 0.05
-    modifyGameSpeedOnInitiationDelay: 0.2
-    modifyGameSpeedOnInitiationDuration: 0.5
-    modifyGameSpeedOnImpact: 0
-    modifyGameSpeedOnImpactSpeedFactor: 0.05
-    modifyGameSpeedOnImpactDuration: 0.5
-    modifyGameSpeedOnImpactDelay: 0.2
-    enableHitStopOnImpact: 0
-    hitStopOnImpactDelay: 0
-    hitStopOnImpactDuration: 0.1
-    hitStopOnImpactEntityHitDelay: 0.2
-    hitStopCurrentlyActive: 0
-    hitStopCurrentTotalExtendDuration: 0
-    globalImpactRequiredTag: []
-    shakeCameraOnInitiation: 0
-    shakeCameraOnInitiationDelay: 0
-    shakeCameraOnInitiationDuration: 0.5
-    shakeCameraOnInitiationAmount: 0.5
-    shakeCameraOnInitiationSpeed: 25
-    shakeCameraOnImpact: 0
-    shakeCameraOnImpactDelay: 0
-    shakeCameraOnImpactDuration: 0.5
-    shakeCameraOnImpactAmount: 0.5
-    shakeCameraOnImpactSpeed: 25
-    pushEntityOnImpact: 0
-    pushEntityOnImpactDelay: 0.1
-    pushEntityOnImpactAmount: 1.5
-    pushEntityOnImpactLiftForce: 0
-    defyEntityGravityOnImpact: 0
-    defyEntityGravityOnImpactDelay: 0.1
-    defyEntityGravityOnImpactDuration: 1.5
-    shakeEntityOnImpact: 0
-    shakeEntityOnImpactShakeAmount: 0.1
-    shakeEntityOnImpactShakeDecay: 0.007
-    shakeEntityOnImpactShakeDelay: 0
-    attachToObjectOnImpact: 0
-    attachToObjectProbabilityMinValue: 0
-    attachToObjectProbabilityMaxValue: 100
-    attachToObjectStickOutFactor: 0.5
-    attachToObjectNearestBone: 0
-    switchColorOnImpact: 0
-    switchColorOnImpactColor: {r: 70, g: 4, b: 4, a: 1}
-    switchColorOnImpactDelay: 0
-    switchColorOnImpactDuration: 0.2
-    switchColorOnImpactUseEmission: 0
-    addAbilityCollider: 1
-    applyColliderSettingsToParent: 1
-    applyColliderSettingsToChildren: 0
-    affectLayer:
-      serializedVersion: 2
-      m_Bits: 0
-    useGraphicRadius: 0
-    colliderRadius: 0.5
-    colliderOffset: {x: 0, y: 0, z: 0}
-    applyTravelDuration: 0
-    travelDurationOriginatorTagsRequired: []
-    travelDurationTime: 0
-    travelDurationStopSuddenly: 0
-    useInitiatingAesthetics: 0
-    initiatingAnimateOnEntity: 1
-    initiatingAnimateOnScrollGraphic: 0
-    initiatingAnimateOnWeapon: 0
-    defyGravityInitiating: 0
-    defyGravityInitiatingDuration: 2
-    defyGravityInitiatingDelay: 0
-    defyGravityInitiatingRaiseEvent: 0
-    initiatingAestheticsPositionOffset: {x: 0, y: 0, z: 0}
-    initiatingAestheticsPositionForwardOffset: 0
-    initiatingAestheticsPositionRightOffset: 0
-    initiatingAnimationRunnerClip:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    initiatingAnimationRunnerMask:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    initiatingAnimationRunnerClipSpeed: 1
-    initiatingAnimationRunnerClipDelay: 0
-    initiatingAnimationRunnerClipDuration: 1
-    initiatingAnimationRunnerOnEntity: 1
-    initiatingAnimationRunnerOnScrollGraphic: 0
-    initiatingAnimationRunnerOnWeapon: 0
-    initiatingAnimatorParameter: 
-    initiatingAnimatorParameterType: 0
-    initiatingAnimatorOnValue: 
-    initiatingAnimatorOffValue: 
-    initiatingAnimatorDuration: 0.5
-    moveSelfWhenInitiating: 0
-    moveSelfInitiatingOffset: {x: 0, y: 0, z: 0}
-    moveSelfInitiatingForwardOffset: 0
-    moveSelfInitiatingRightOffset: 0
-    moveSelfInitiatingDelay: 0
-    moveSelfInitiatingDuration: 1
-    moveSelfToTargetWhenInitiating: 0
-    moveSelfToTargetInitiatingDelay: 0
-    moveSelfToTargetInitiatingDuration: 0.5
-    moveSelfToTargetInitiatingStopDistance: 5
-    moveSelfToTargetInitiatingOffset: {x: 0, y: 0, z: 0}
-    moveSelfToTargetInitiatingForwardOffset: 0
-    moveSelfToTargetInitiatingRightOffset: 0
-    initiatingGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    initiatingSubGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    initiatingAestheticActivateWithAbility: 0
-    initiatingAestheticDuration: 2
-    initiatingAestheticDelay: 0
-    initiatingAestheticDetachFromParentAfterDelay: 0
-    initiatingAestheticDetachDelay: 0.1
-    initiatingUseWeaponTrail: 0
-    initiatingWeaponTrailGraphicIteration: 0
-    intiatingProjectileDelayType: 0
-    delayBetweenInitiatingAndProjectile: 0
-    initiatingProjectileDelayAnimationPercentage: 30
-    initiatingStartPosition: 0
-    initiatingPositionOnObject:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    initiatingPositionOnTag: 
-    colliderTimeDelay: 0
-    colliderDelayTime: 0
-    colliderKeyPressDelay: 0
-    colliderDelayInputType: 0
-    colliderDelayButton: 
-    colliderDelayKey: 0
-    ignoreActiveTerrain: 1
-    persistIK: 0
-    spawnObject: 0
-    spawnObjectOnDestroy: 0
-    spawnObjectOnCollide: 0
-    spawningObject:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    useRange: 0
-    selectedTargetRangeGreaterThan: 0
-    selectedTargetRangeLessThan: 100
-    selectedTargetOffset: {x: 0, y: 0, z: 0}
-    selectedTargetForwardOffset: 0
-    selectedTargetRightOffset: 0
-    abilityCanMiss: 1
-    prepareTime: 0
-    ignoreGlobalPrepareTimeAdjustments: 0
-    abilityInitiatingBaseSpeedAdjustment: 100
-    ignoreGlobalInitiatingSpeedAdjustments: 0
-    modifyAbilityInitiatingBaseSpeedByStat: 0
-    abilityInitiatingBaseSpeedStatModification:
-      statIntegrationType: 0
-      arithmeticOperator: 0
-      percentageValue: 0
-      statSource: 0
-      statName: 
-    waitForKeyBeforeInitiating: 0
-    waitBeforeInitiatingInputType: 0
-    waitBeforeInitiatingButton: 
-    waitBeforeInitiatingKey: 13
-    waitForKeyBeforeInitiatingDelay: 0
-    waitForKeyAllowChangeOfTarget: 1
-    moveInteruptPreparation: 0
-    distanceInteruptPreparation: 0
-    showPrepareTimeOnGUI: 0
-    usePreparingAesthetics: 0
-    preparingAnimateOnEntity: 1
-    preparingAnimateOnScrollGraphic: 0
-    preparingAnimateOnWeapon: 0
-    defyGravityPreparing: 0
-    defyGravityPreparingDuration: 2
-    defyGravityPreparingDelay: 0
-    defyGravityPreparingRaiseEvent: 0
-    preparingAestheticsPositionOffset: {x: 0, y: 0, z: 0}
-    preparingAestheticsPositionForwardOffset: 0
-    preparingAestheticsPositionRightOffset: 0
-    preparingAnimationRunnerClip:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    preparingAnimationRunnerMask:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    preparingAnimationRunnerClipSpeed: 1
-    preparingAnimationRunnerClipDelay: 0
-    preparingAnimationRunnerOnEntity: 1
-    preparingAnimationRunnerOnScrollGraphic: 0
-    preparingAnimationRunnerOnWeapon: 0
-    preparingAnimatorParameter: 
-    preparingAnimatorParameterType: 0
-    preparingAnimatorOnValue: 
-    preparingAnimatorOffValue: 
-    moveSelfWhenPreparing: 0
-    moveSelfPreparingOffset: {x: 0, y: 0, z: 0}
-    moveSelfPreparingForwardOffset: 0
-    moveSelfPreparingRightOffset: 0
-    moveSelfPreparingDelay: 0
-    moveSelfPreparingDuration: 1
-    moveSelfToTargetWhenPreparing: 0
-    moveSelfToTargetPreparingDelay: 0
-    moveSelfToTargetPreparingDuration: 0.5
-    moveSelfToTargetPreparingStopDistance: 5
-    moveSelfToTargetActivatePreparingAnimationOnlyWhenMoving: 0
-    moveSelfToTargetPreparingOffset: {x: 0, y: 0, z: 0}
-    moveSelfToTargetPreparingForwardOffset: 0
-    moveSelfToTargetPreparingRightOffset: 0
-    preparingGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    preparingSubGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    preparingAestheticDurationUsePrepareTime: 1
-    preparingAestheticDuration: 0
-    preparingStartPosition: 0
-    preparingPositionOnObject:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    preparingPositionOnTag: 
-    useProjectileToStartPosition: 0
-    projToStartDelay: 0
-    useOriginalProjectilePTS: 0
-    projToStartPosGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    projToStartPosSubGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    projToStartPosDuration: 5
-    projToStartStartingPosition: 0
-    projToStartRotateToTarget: 0
-    projToStartRotation: {x: 0, y: 0, z: 0}
-    projToStartSetEulerRotation: 0
-    projToStartPositionOnObject:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    projToStartPositionOnTag: 
-    projToStartPositionOffset: {x: 0, y: 0, z: 0}
-    projToStartPositionForwardOffset: 0
-    projToStartPositionRightOffset: 0
-    projToStartHoverOnSpot: 0
-    projToStartHoverDistance: 0.4
-    projToStartMoveWithTarget: 1
-    projToStartReachPositionTime: 2
-    projToStartTravelDelay: 0
-    useScrollAbilityAesthetics: 0
-    scrollAbilityAnimateOnEntity: 1
-    scrollAbilityAnimateOnScrollGraphic: 0
-    scrollAbilityAnimateOnWeapon: 0
-    scrollAbilityAestheticsPositionOffset: {x: 0, y: 0, z: 0}
-    scrollAbilityAestheticsPositionForwardOffset: 0
-    scrollAbilityAestheticsPositionRightOffset: 0
-    scrollAbilityAnimationRunnerClip:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    scrollAbilityAnimationRunnerMask:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    scrollAbilityAnimationRunnerClipSpeed: 1
-    scrollAbilityAnimationRunnerClipDelay: 0
-    scrollAbilityAnimationRunnerClipDuration: 1
-    scrollAbilityAnimationRunnerOnEntity: 1
-    scrollAbilityAnimationRunnerOnScrollGraphic: 0
-    scrollAbilityAnimationRunnerOnWeapon: 0
-    scrollAbilityAnimatorParameter: 
-    scrollAbilityAnimatorParameterType: 0
-    scrollAbilityAnimatorOnValue: 
-    scrollAbilityAnimatorOffValue: 
-    scrollAbilityAnimatorDuration: 3
-    scrollAbilityDeactivateAnimationRunnerClip:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    scrollAbilityDeactivateAnimationRunnerMask:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    scrollAbilityDeactivateAnimationRunnerClipSpeed: 1
-    scrollAbilityDeactivateAnimationRunnerClipDelay: 0
-    scrollAbilityDeactivateAnimationRunnerClipDuration: 1
-    scrollAbilityDeactivateAnimationRunnerOnEntity: 1
-    scrollAbilityDeactivateAnimationRunnerOnScrollGraphic: 0
-    scrollAbilityDeactivateAnimationRunnerOnWeapon: 0
-    scrollAbilityDeactivateAnimatorParameter: 
-    scrollAbilityDeactivateAnimateOnEntity: 1
-    scrollAbilityDeactivateAnimateOnScrollGraphic: 0
-    scrollAbilityDeactivateAnimateOnWeapon: 0
-    scrollAbilityDeactivateAnimatorParameterType: 0
-    scrollAbilityDeactivateAnimatorOnValue: 
-    scrollAbilityDeactivateAnimatorOffValue: 
-    scrollAbilityDeactivateAnimatorDuration: 3
-    scrollAbilityGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    scrollAbilitySubGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    scrollAbilityGraphicActivateDelay: 0
-    scrollAbilityGraphicDeactivateDelay: 0
-    scrollAbilityStartPosition: 0
-    scrollAbilityPositionOnObject:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    scrollAbilityPositionOnTag: 
-    scrollAbilityAestheticDurationType: 0
-    scrollAbilityAestheticDuration: 0
-    scrollAbilityPersistantAestheticInactivePosition: 0
-    scrollAbilityPersistantAestheticInactivePositionOnObject:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    scrollAbilityPersistantAestheticInactivePositionOnTag: 
-    useReloadAbilityAesthetics: 0
-    reloadAbilityAnimateOnEntity: 1
-    reloadAbilityAnimateOnScrollGraphic: 0
-    reloadAbilityAnimateOnWeapon: 0
-    reloadAbilityAestheticsPositionOffset: {x: 0, y: 0, z: 0}
-    reloadAbilityAestheticsPositionForwardOffset: 0
-    reloadAbilityAestheticsPositionRightOffset: 0
-    reloadAbilityAnimatorParameter: 
-    reloadAbilityAnimationRunnerClip:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    reloadAbilityAnimationRunnerMask:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    reloadAbilityAnimationRunnerClipSpeed: 1
-    reloadAbilityAnimationRunnerClipDelay: 0
-    reloadAbilityAnimationRunnerOnEntity: 1
-    reloadAbilityAnimationRunnerOnScrollGraphic: 0
-    reloadAbilityAnimationRunnerOnWeapon: 0
-    reloadAbilityAnimatorParameterType: 0
-    reloadAbilityAnimatorOnValue: 
-    reloadAbilityAnimatorOffValue: 
-    reloadAbilityGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    reloadAbilitySubGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    reloadAbilityAestheticDuration: 2
-    reloadAbilityStartPosition: 0
-    reloadAbilityPositionOnObject:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    reloadAbilityPositionOnTag: 
-    useAbilityEndAesthetics: 0
-    abilityEndUseEffectGraphic: 0
-    abilityEndActivateOnEnvironmentOnly: 0
-    abilityEndGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    abilityEndSubGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
-    scaleAbilityEndGraphic: 0
-    abilityEndGraphicScale: 1
-    abEndAestheticDuration: 2
-    stopMovementOnInitiate: 0
-    stopMovementOnInitiateDuration: 0.5
-    stopMovementOnInitiateFreezePosition: 0
-    stopMovementOnInitiateDisableComponents: 1
-    stopMovementOnInitiateRaiseEvent: 0
-    stopMovementOnPreparing: 0
-    stopMovementOnPreparingDuration: 0.5
-    stopMovementOnPreparingFreezePosition: 0
-    stopMovementOnPreparingDisableComponents: 1
-    stopMovementOnPreparingRaiseEvent: 0
-  - globalAbilities: {fileID: 11400000, guid: bb6ac58a22ad64b45ab3fc221de4b4be, type: 2}
-    globalElementSource: {fileID: 0}
-    globalAbilitiesEnableGameTypeModification: 0
     globalAbilitiesGameTypeModification: 0
     name: 
     abilityID: -1
@@ -32306,7 +31658,7 @@ MonoBehaviour:
   CurrentAbilityGroup: 0
   CurrentWeaponIndex: 0
   CurrentAI: 0
-  CurrentAbility: 1
+  CurrentAbility: 0
   abilitySideListFilterChoice: 0
   abilitySideListPreviousFilterChoice: 0
   DraggableMode: 0
@@ -32813,8 +32165,6 @@ MonoBehaviour:
   m_FinishOnAnimationEnd: 1
   IgnoreAbilities:
   - {fileID: 1248815673505799254}
-  - {fileID: 0}
-  - {fileID: 0}
   m_UseRootMotion: 1
   m_UseRotationRootMotion: 1
   m_UseVerticalRootMotion: 1
@@ -32988,6 +32338,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1248815673505799240}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -33204,6 +32566,39 @@ MonoBehaviour:
   drawGizmos: 0
   gizmoColor: {r: 1, g: 0, b: 0, a: 1}
   m_MaxVaultThickness: 0.3
+--- !u!114 &1248815673505799251
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248815673505799240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183ef259b9261a548ab4e67e385ea476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EnterState: Roll
+  m_TransitionDuration: 0.1
+  m_RootMotionMultiplier: {x: 1, y: 1, z: 1}
+  m_FinishOnAnimationEnd: 1
+  IgnoreAbilities:
+  - {fileID: 1248815673505799254}
+  m_UseRootMotion: 0
+  m_UseRotationRootMotion: 0
+  m_UseVerticalRootMotion: 0
+  m_AllowCameraZoom: 0
+  m_AbilityPhysicMaterial: {fileID: 0}
+  OnEnterAbilityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnExitAbilityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_UseInputStateToEnter: 0
+  InputButton: 2
+  speedOnRolling: 8
+  m_CapsuleHeight: 1
 --- !u!114 &1248815673505799252
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -33229,7 +32624,19 @@ MonoBehaviour:
     type: 2}
   OnEnterAbilityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1248815673505799243}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   OnExitAbilityEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -33313,7 +32720,19 @@ MonoBehaviour:
     type: 2}
   OnEnterAbilityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1248815673505799243}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   OnExitAbilityEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -33408,19 +32827,7 @@ MonoBehaviour:
       m_Calls: []
   OnAnyAbilityExits:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1248815673505799243}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
   OnGrounded:
     m_PersistentCalls:
       m_Calls:
@@ -61687,7 +61094,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5933567505956933692}
-  m_LocalRotation: {x: -0.032830764, y: -0.0000000021495654, z: -7.060993e-11, w: 0.99946094}
+  m_LocalRotation: {x: -0.032830764, y: 0.0000000021496385, z: 7.061232e-11, w: 0.99946094}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -61919,7 +61326,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5933567506195413541}
-  m_LocalRotation: {x: -0.02905215, y: 0.000000017179195, z: -1.282505e-10, w: 0.99957794}
+  m_LocalRotation: {x: -0.029052187, y: -0.000000016390313, z: 1.2236184e-10, w: 0.99957794}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -61993,7 +61400,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5933567506256725228}
-  m_LocalRotation: {x: 0.2179532, y: -0.6372487, z: 0.19477737, w: 0.7130724}
+  m_LocalRotation: {x: 0.21795322, y: -0.6372487, z: 0.19477737, w: 0.7130724}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -62109,7 +61516,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5933567506264945358}
-  m_LocalRotation: {x: -0.001511693, y: 0.000000034425295, z: -0.0000000012057173,
+  m_LocalRotation: {x: -0.001511734, y: -0.000000034425295, z: 0.0000000012057187,
     w: 0.99999887}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -62285,7 +61692,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5933567506534571428}
-  m_LocalRotation: {x: -0.007706223, y: 0.000000016393583, z: -4.7251597e-10, w: 0.9999703}
+  m_LocalRotation: {x: -0.0077062724, y: -0.000000013764959, z: 3.9675105e-10, w: 0.9999703}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -62534,7 +61941,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5933567506917583321}
-  m_LocalRotation: {x: 0.018259762, y: -0.00000003444066, z: 6.289831e-10, w: 0.9998333}
+  m_LocalRotation: {x: 0.018259803, y: 0.00000003444066, z: -6.289845e-10, w: 0.9998333}
   m_LocalPosition: {x: 103.05847, y: 0.18271816, z: -19.975868}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

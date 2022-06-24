@@ -503,7 +503,7 @@ MonoBehaviour:
     hitPreventionWontInterruptActivation: 1
     forceActivation: 1
     forceActivationInterruptCurrentActivation: 1
-    overrideIgnoreAbilityCollision: 1
+    overrideIgnoreAbilityCollision: 0
     overrideWeaponParrying: 0
     overrideWeaponBlocking: 0
     reduceWeaponBlockDurability: 1
@@ -604,7 +604,7 @@ MonoBehaviour:
     reloadFillClipRepeatGraphic: 1
     abilityRecast: 0.8
     startRecastAfterAbilityEnd: 0
-    travelSpeed: 20
+    travelSpeed: 1
     duration: 1
     abilityToggle: 0
     canCastWhenToggled: 1
@@ -786,7 +786,7 @@ MonoBehaviour:
     switchColorOnImpactDelay: 0
     switchColorOnImpactDuration: 0.2
     switchColorOnImpactUseEmission: 0
-    addAbilityCollider: 1
+    addAbilityCollider: 0
     applyColliderSettingsToParent: 1
     applyColliderSettingsToChildren: 0
     affectLayer:
@@ -811,16 +811,16 @@ MonoBehaviour:
     initiatingAestheticsPositionForwardOffset: 0
     initiatingAestheticsPositionRightOffset: 0
     initiatingAnimationRunnerClip:
-      refVal: {fileID: 7400000, guid: 7b3d86be56b77f74db63fd85983f96ce, type: 2}
-      refName: ForwardRoll
-      refUpdateDateTime: 6/23/2022 2:49:35 PM
+      refVal: {fileID: 7400000, guid: 5118ab047f60cec4285873c1fd0532b8, type: 2}
+      refName: ForwardRollLongDistance
+      refUpdateDateTime: 6/24/2022 1:26:02 PM
     initiatingAnimationRunnerMask:
       refVal: {fileID: 0}
       refName: 
-      refUpdateDateTime: 
+      refUpdateDateTime: 6/24/2022 12:39:58 PM
     initiatingAnimationRunnerClipSpeed: 2
     initiatingAnimationRunnerClipDelay: 0
-    initiatingAnimationRunnerClipDuration: 0.6
+    initiatingAnimationRunnerClipDuration: 1
     initiatingAnimationRunnerOnEntity: 1
     initiatingAnimationRunnerOnScrollGraphic: 0
     initiatingAnimationRunnerOnWeapon: 0
@@ -851,7 +851,7 @@ MonoBehaviour:
       refName: 
       refUpdateDateTime: 
     initiatingAestheticActivateWithAbility: 0
-    initiatingAestheticDuration: 2
+    initiatingAestheticDuration: 1.5
     initiatingAestheticDelay: 0
     initiatingAestheticDetachFromParentAfterDelay: 0
     initiatingAestheticDetachDelay: 0.1
@@ -872,7 +872,7 @@ MonoBehaviour:
     colliderDelayInputType: 0
     colliderDelayButton: 
     colliderDelayKey: 0
-    ignoreActiveTerrain: 1
+    ignoreActiveTerrain: 0
     persistIK: 0
     spawnObject: 0
     spawnObjectOnDestroy: 0
@@ -885,7 +885,7 @@ MonoBehaviour:
     selectedTargetRangeGreaterThan: 0
     selectedTargetRangeLessThan: 100
     selectedTargetOffset: {x: 0, y: 0, z: 0}
-    selectedTargetForwardOffset: 0
+    selectedTargetForwardOffset: 10
     selectedTargetRightOffset: 0
     abilityCanMiss: 0
     prepareTime: 0

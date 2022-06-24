@@ -1,4 +1,5 @@
-﻿using System;
+﻿#if UNITY_EDITOR
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
@@ -275,11 +276,11 @@ namespace ThirdPersonSystem
                 if (!(abilityDrawer is ClimbJumpDrawer))
                     abilityDrawer = new ClimbJumpDrawer();
             }
-            else if (m_Abilities[selectedAbility].GetType().FullName.Contains("Ladder"))
+            /*else if (m_Abilities[selectedAbility].GetType().FullName.Contains("Ladder"))
             {
                 if (!(abilityDrawer is LadderDrawer))
                     abilityDrawer = new LadderDrawer();
-            }
+            }*/
             else if (m_Abilities[selectedAbility].GetType().BaseType.FullName.Contains("AbstractClimbing"))
             {
                 if (!(abilityDrawer is ClimbAbilityDrawer) || abilityDrawer is ClimbingDrawer)
@@ -290,7 +291,7 @@ namespace ThirdPersonSystem
                 if (!(abilityDrawer is FallDrawer))
                     abilityDrawer = new FallDrawer();
             }
-            else if (m_Abilities[selectedAbility].GetType().FullName.Contains("Crawl"))
+            /*else if (m_Abilities[selectedAbility].GetType().FullName.Contains("Crawl"))
             {
                 if (!(abilityDrawer is CrawlDrawer))
                     abilityDrawer = new CrawlDrawer();
@@ -309,7 +310,7 @@ namespace ThirdPersonSystem
             {
                 if (!(abilityDrawer is CoverDrawer))
                     abilityDrawer = new CoverDrawer();
-            }
+            }*/
             else
             {
                 if (!abilityDrawer.GetType().Name.Equals("AbilityDrawer"))
@@ -357,3 +358,4 @@ namespace ThirdPersonSystem
         }
     }
 }
+#endif

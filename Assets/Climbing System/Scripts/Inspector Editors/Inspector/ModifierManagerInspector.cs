@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿#if UNITY_EDITOR
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
@@ -16,7 +17,7 @@ namespace ThirdPersonSystem
         List<Type> m_Modifiers = new List<Type>();
         int selectedModifier = 0;
 
-        CharacterShooterDrawer shooterDrawer = new CharacterShooterDrawer();
+        
 
         protected override void OnEnable()
         {
@@ -108,8 +109,8 @@ namespace ThirdPersonSystem
             GUILayout.Space(20);
             if (modifiers.GetArrayElementAtIndex(selectedModifier).objectReferenceValue.GetType().Name.Contains("CharacterShooterController"))
             {
-                shooterDrawer.GetProperties(new SerializedObject(modifiers.GetArrayElementAtIndex(selectedModifier).objectReferenceValue));
-                shooterDrawer.DrawInspector();
+                /*shooterDrawer.GetProperties(new SerializedObject(modifiers.GetArrayElementAtIndex(selectedModifier).objectReferenceValue));
+                shooterDrawer.DrawInspector();*/
             }
             else
                 DrawModifierByIterator();
@@ -205,3 +206,4 @@ namespace ThirdPersonSystem
         }
     }
 }
+#endif
